@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  .outer {
+    display: grid;
+    place-content: center;
+    place-items: center;
+    height: 100vh;
+    grid-template-columns: minmax(50em,0.5fr);
+    background-color: #ddd;
+  }
+  .container {
+    max-width: 400px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .parent {
+    border: 2px solid #c9b7b7;
+    text-align: center;
+    padding: 3em;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.248);
+    border-radius: 10px;
+  }
+  .heading {
+    font-size: 3rem;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid black;
+    color: #4e4949;
+  }
+  .para {
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
+    margin-bottom: 1.5em;
+    font-weight: 500;
+    padding: 0.5em;
+    font-style: italic;
+    color: #333;
+
+  }
+  .btn {
+    border: none;
+    outline: none;
+    display: inline-block;
+    padding: 0.5em 1em;
+    font-size: 2em;
+    cursor: pointer;
+    color: #4e4949;
+  }
+  .btn:hover {
+    box-shadow: 0px 0px 20px 0px #aaa;
+    color: orange;
+    border: 1px solid orange;
+  }
+
+  @media screen and (max-width: 600px) {
+     html{
+      font-size: 54%;
+     }
+  }
+  @media screen and (max-width: 400px) {
+     html{
+      font-size: 48%;
+     }
+  }
+  @media screen and (max-width: 350px) {
+     html{
+      font-size: 43%;
+     }
+  }
+  @media screen and (max-width: 300px) {
+     html{
+      font-size: 35%;
+     }
+  }
+  @media screen and (max-width: 250px) {
+     html{
+      font-size: 30%;
+     }
+  }
+  @media screen and (max-width: 200px) {
+     html{
+      font-size: 25%;
+     }
+  }
